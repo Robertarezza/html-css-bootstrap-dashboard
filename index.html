@@ -55,40 +55,40 @@
         >
           <a
             href="/"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+            class="d-s-none d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none"
           >
             <span class="fs-4 p-3">Bootstrap Dashboard</span>
           </a>
           <hr />
           <ul class="nav nav-pills flex-column mb-auto">
-            <li class="nav-item">
-              <a href="Index.html" class="nav-link active" aria-current="page">
+            <li>
+              <a href="index.html" class="nav-link active text-white" aria-current="page">
                 <svg class="bi pe-none me-2" width="16" height="16">
-                  <use xlink:href="Dashboard"></use>
+                  <use xlink:href="index"></use>
                 </svg>
                 Dashboard
               </a>
             </li>
             <li>
-              <a href="Sponsorizzazine.html" class="nav-link text-white">
+              <a href="sponsorizzazione.html" class="nav-link text-white">
                 <svg class="bi pe-none me-2" width="16" height="16">
-                  <use xlink:href="Sponsorizzazione"></use>
+                  <use xlink:href="sponsorizzazione"></use>
                 </svg>
                 Sponsorizzazione
               </a>
             </li>
             <li>
-              <a href="Prodotti.html" class="nav-link text-white">
+              <a href="prodotti.html" class="nav-link text-white">
                 <svg class="bi pe-none me-2" width="16" height="16">
-                  <use xlink:href="Prodotti"></use>
+                  <use xlink:href="prodotti"></use>
                 </svg>
                 Prodotti
               </a>
             </li>
             <li>
-              <a href="NuovoProdotto.html" class="nav-link text-white">
+              <a href="nuovo_prodotto.html" class="nav-link text-white">
                 <svg class="bi pe-none me-2" width="16" height="16">
-                  <use xlink:href="NuovoProdotto"></use>
+                  <use xlink:href="nuovo_prodotto"></use>
                 </svg>
                 Nuovo Prodotto
               </a>
@@ -110,17 +110,17 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
+           
               <img
-                src="https://github.com/mdo.png"
+                src="./img/roby.jpg"
                 alt=""
                 width="32"
                 height="32"
                 class="rounded-circle me-2"
               />
-              <strong>mdo</strong>
+              <strong>Roberta Rezza</strong>
             </a>
             <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-              <li><a class="dropdown-item" href="#">New project...</a></li>
               <li><a class="dropdown-item" href="#">Settings</a></li>
               <li><a class="dropdown-item" href="#">Profile</a></li>
               <li><hr class="dropdown-divider" /></li>
@@ -131,7 +131,47 @@
 
         <!-- Main -->
         <main class="col-md-8 col-lg-9">
-          Contenuto
+        <div class="d-flex justify-content-between p-4 border border-start-0 border-end-0 border-top-0 border-botton-2">
+          <h4>10 prodotti trovati</h4>
+          <div>
+          <button>
+            <a href="">Esporta</a>
+          </button>
+          <button>
+            <a href="nuovo_prodotto.html">Nuovo</a>
+          </button>
+        </div>
+        </div>
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Prezzo</th>
+                <th scope="col">Stato</th>
+                <th scope="col">Azioni</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
         </main>
         <!-- /Main -->
       </div>
