@@ -37,251 +37,276 @@
     </nav>
   </header>
 
-  <div class="container-fluid">
-    <div class="row">
-      <!-- Sidebar -->
-      <div class="sidebar  col-md-4 col-lg-3 collapse d-md-block bg-dark min-vh-100" id="navbarSupportedContent">
-        <a href="/"
-          class="d-none d-md-block d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-          <span class="fs-4 p-2">Bootstrap Dashboard</span>
-        </a>
-        <hr class="text-white" />
-        <ul class="nav nav-pills flex-column mb-auto">
-          <li>
-            <a href="index.html" class="nav-link active text-white" aria-current="page">
-              <i class="fa-solid fa-house me-2"></i>
-              Dashboard
-            </a>
-          </li>
-          <li>
-            <a href="sponsorizzazione.html" class="nav-link text-white">
-              <i class="fa-solid fa-chart-line me-2"></i>
-              Sponsorizzazione
-            </a>
-          </li>
-          <li>
-            <a href="prodotti.html" class="nav-link text-white">
-              <i class="fa-solid fa-box-archive me-2"></i>
-              Prodotti
-            </a>
-          </li>
-          <li>
-            <a href="nuovo_prodotto.html" class="nav-link text-white">
-              <i class="fa-solid fa-plus me-2"></i>
-              Nuovo Prodotto
-            </a>
-          </li>
-          <li>
-            <a href="#" class="nav-link text-white">
-              <i class="fa-solid fa-user-tie me-2"></i>
-              Clienti
-            </a>
-          </li>
-        </ul>
-        <hr class="text-white" />
-        <div class="dropdown">
-          <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-            data-bs-toggle="dropdown" aria-expanded="false">
+  <!-- Main -->
 
-            <img src="./img/roby.jpg" alt="" width="32" height="32" class="rounded-circle me-2" />
-            <strong>Roberta Rezza</strong>
+  <main>
+    <div class="container-fluid h-100">
+      <div class="row">
+        <!-- Sidebar -->
+        <div class="sidebar  col-md-4 col-lg-3 collapse d-md-block bg-dark" id="navbarSupportedContent">
+          <a href="/"
+            class="d-none d-md-block d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <span class="fs-4 p-2">Bootstrap Dashboard</span>
           </a>
-          <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Profile</a></li>
+          <hr class="text-white" />
+          <ul class="nav nav-pills flex-column mb-auto">
             <li>
-              <hr class="dropdown-divider" />
+              <a href="index.html" class="nav-link active text-white" aria-current="page">
+                <i class="fa-solid fa-house me-2"></i>
+                Dashboard
+              </a>
             </li>
-            <li><a class="dropdown-item" href="#">Sign out</a></li>
+            <li>
+              <a href="sponsorizzazione.html" class="nav-link text-white">
+                <i class="fa-solid fa-chart-line me-2"></i>
+                Sponsorizzazione
+              </a>
+            </li>
+            <li>
+              <a href="prodotti.html" class="nav-link text-white">
+                <i class="fa-solid fa-box-archive me-2"></i>
+                Prodotti
+              </a>
+            </li>
+            <li>
+              <a href="nuovo_prodotto.html" class="nav-link text-white">
+                <i class="fa-solid fa-plus me-2"></i>
+                Nuovo Prodotto
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <i class="fa-solid fa-user-tie me-2"></i>
+                Clienti
+              </a>
+            </li>
           </ul>
-        </div>
-      </div>
+          <hr class="text-white" />
+          <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown" aria-expanded="false">
 
-      <!-- Main -->
-      <main class="col-md-8 col-lg-9">
-        <div
-          class="d-flex justify-content-between align-items-center  border border-start-0 border-end-0 border-top-0 border-botton-2 py-2">
-          <h4 class="mb-0">10 prodotti trovati</h4>
-          <div class="btn btn-group  ">
-            <button class="btn btn-outline-secondary btn-sm">
-              <a class="text-decoration-none text-secondary" href="">Esporta</a>
-            </button>
-            <button class="btn btn-outline-secondary btn-sm">
-              <a class="text-decoration-none text-secondary" href="nuovo_prodotto.html">Nuovo</a>
-            </button>
+              <img src="./img/roby.jpg" alt="" width="32" height="32" class="rounded-circle me-2" />
+              <strong>Roberta Rezza</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
           </div>
         </div>
-        <div class="table-responsive">
-        <table class="table  align-middle">
-          <thead>
-            <tr>
-              <th class="col-10 col-sm-10 col-md-9 col-lg-9">Nome</th>
-              <th class="d-none d-sm-table-cell col-md-1 col-lg-1 text-center">Prezzo</th>
-              <th class="d-none d-md-table-cell col-md-1 col-lg-1 text-center">Stato</th>
-              <th class="col-2 col-sm-2 col-md-1 col-lg-1 text-center">Azioni</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+        <!-- /Sidebar -->
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+        <div class="col-md-8 col-lg-9 overflow-y">
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+          <!-- parte superiore  -->
+          <div
+            class="d-flex justify-content-between align-items-center  border border-start-0 border-end-0 border-top-0 border-botton-2 py-2">
+            <h4 class="mb-0">10 prodotti trovati</h4>
+            <div class="btn btn-group  ">
+              <button class="btn btn-outline-secondary btn-sm">
+                <a class="text-decoration-none text-secondary" href="">Esporta</a>
+              </button>
+              <button class="btn btn-outline-secondary btn-sm">
+                <a class="text-decoration-none text-secondary" href="nuovo_prodotto.html">Nuovo</a>
+              </button>
+            </div>
+          </div>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+          <!-- table -->
+          <div class="table-responsive">
+            <table class="table  align-middle">
+              <thead>
+                <tr>
+                  <th class="col-10 col-sm-10 col-md-9 col-lg-9">Nome</th>
+                  <th class="d-none d-sm-table-cell col-md-1 col-lg-1 text-center">Prezzo</th>
+                  <th class="d-none d-md-table-cell col-md-1 col-lg-1 text-center">Stato</th>
+                  <th class="col-2 col-sm-2 col-md-1 col-lg-1 text-center">Azioni</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera ultra Wide, batteria lunga durata</div> 
-              </td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-10 col-md-9 col-lg-9 p-0 pt-2 pb-1"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21</td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-            <tr>
-              <td class="col-10 col-md-9 col-lg-9 p-0 pt-2 pb-1"><img src="./img/samsung"  alt="" width="50" height="40">
-                Smatphene Samsung Galaxy S21</td>
-              <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
-              <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
-                  class="fa-regular fa-circle-check text-success "></i></td>
-              <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
-                  class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
-                  class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
-            </tr>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
 
-          </tbody>
-        </table>
-      </div>
-      </main>
-      <!-- /Main -->
-    </div>
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
+
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
+
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
+
+                <tr>
+                  <td class="col-md-9 col-lg-9 p-0 pt-2 pb-2"><img src="./img/samsung" alt="" width="50" height="40">
+                    Smatphene Samsung Galaxy S21 <div class="m_s-font d-none d-lg-block">Display AMOLED, fotocamera
+                      ultra Wide, batteria lunga durata</div>
+                  </td>
+                  <td class="d-none d-sm-table-cell col-md-1 p-0 pt-2 text-center">79,00 € </td>
+                  <td class="d-none d-md-table-cell col-md-1 p-0 pt-2 text-center"><i
+                      class="fa-regular fa-circle-check text-success "></i></td>
+                  <td class="col-2 col-sm-2 col-md-1 p-0 pt-2 ps-2"> <i
+                      class="fa-solid fa-pencil border border-primary text-primary p-1"></i> <i
+                      class="fa-solid fa-trash border border-danger text-danger p-1"></i></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+          <!-- table -->
+        </div>
+  </main>
+  <!-- /Main -->
+  </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
